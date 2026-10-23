@@ -37,5 +37,10 @@ Using SQL to analyse the sales of a digital music store.
 - Revenue per customer is about the same everywhere ($37-46), so bigger countries just have more customers
 - Sales are very stable (most months $37.62) with no real growth over 5 years
 
+## Files
+- `Chinook_SQL_Analysis.ipynb` - the full analysis (SQL run from Python + charts)
+- `queries.sql` - all the SQL queries on their own
+
 ## Run it
-Open `Chinook_SQL_Analysis.ipynb` in Google Colab or Jupyter and run all cells. The database is downloaded automatically.
+- Open `Chinook_SQL_Analysis.ipynb` in Google Colab or Jupyter and run all cells. The database is downloaded automatically.
+- Or run `queries.sql` directly on the [Chinook SQLite database](https://github.com/lerocha/chinook-database) using DB Browser for SQLite or any SQL editor.
