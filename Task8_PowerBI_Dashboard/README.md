@@ -18,8 +18,10 @@ Interactive Power BI dashboard built on the Superstore sales data.
 - **KPIs:** Total Revenue, Total Orders, Total Customers, Avg Order Value, Revenue YoY %
 - **Top 10 products** by revenue (Top N filter)
 - **Sales by region** and **revenue by category / sub-category** (treemap)
-- **Monthly revenue trend**
+- **Monthly revenue trend** with a trend line
+- **Revenue by customer segment** (donut)
 - **Slicers:** Order Year, Region, Category, Segment - everything on the page filters together
+- Custom theme in Elevvo colors (`elevvo_theme.json`)
 
 DAX measures:
 ```DAX

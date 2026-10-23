@@ -1,0 +1,45 @@
+{
+  "name": "Elevvo Gold",
+  "dataColors": ["#F5B301", "#0D1B2A", "#E07A00", "#FFD966", "#4A4E69", "#9A8C98", "#C9A227", "#22223B"],
+  "background": "#FFFFFF",
+  "foreground": "#0D1B2A",
+  "tableAccent": "#F5B301",
+  "good": "#2E7D32",
+  "bad": "#C62828",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "color": "#0D1B2A", "fontSize": 13 },
+    "callout": { "fontFace": "Segoe UI Bold", "color": "#0D1B2A", "fontSize": 30 },
+    "label": { "fontFace": "Segoe UI", "color": "#0D1B2A", "fontSize": 10 },
+    "header": { "fontFace": "Segoe UI Semibold", "color": "#0D1B2A", "fontSize": 12 }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFF6DD" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#FFF6DD" } }, "transparency": 0 }]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#F5B301" } }, "radius": 12 }],
+        "dropShadow": [{ "show": true, "preset": "bottomRight" }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{ "fontSize": 12, "fontColor": { "solid": { "color": "#0D1B2A" } } }],
+        "header": [{ "fontSize": 12, "fontColor": { "solid": { "color": "#0D1B2A" } }, "bold": true }],
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#0D1B2A" } }, "transparency": 0 }],
+        "border": [{ "show": false }]
+      }
+    }
+  }
+}
